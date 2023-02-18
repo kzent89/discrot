@@ -172,8 +172,8 @@ func rand_custom_text(f string) string {
 func init() {
 	flag.StringVar(&ConfigFile, "conf", "config.yaml", "Configuration File")
 	flag.StringVar(&Channel_id, "c", "", "Channel ID")
-	flag.IntVar(&Delay, "d", 600, "Delay *Seconds")
-	flag.StringVar(&Mode, "m", "repost", "Mode")
+	flag.IntVar(&Delay, "d", 903, "Delay *Seconds")
+	flag.StringVar(&Mode, "m", "custom", "Mode")
 	flag.StringVar(&Custom, "custom", "custom.txt", "Custom.txt File")
 	flag.StringVar(&Last, "l", "100", "Limit Chat History")
 	flag.BoolVar(&Del, "del", false, "Delete After Sending")
